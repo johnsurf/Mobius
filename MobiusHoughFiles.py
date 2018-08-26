@@ -35,7 +35,7 @@ print("File Index to run %i   = " % index )
 print("LoopTheta Value   %i   = " % LoopTheta)
 import glob
 #path_to_train = '/Users/johnrsmith/Kaggle/Datafiles/train_100_events/'
-filepath  = path_to_train + '/*-hits.csv'
+filepath  = path_to_train + '*-hits.csv'
 print("Path to Files %s" % filepath)
 filelist = []
 files = glob.glob(filepath)
